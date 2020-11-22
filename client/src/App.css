@@ -1,0 +1,208 @@
+.App {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+}
+
+/* @media only screen and (max-width: 760px) { */
+  .header-container{
+    position: relative;
+    height: 40vh;
+    background-image: linear-gradient(to right, #859cd3 0%, #859cd3 60%, #4e74bf 30%),
+    url("./assets/nature.jpg");
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: top;
+  
+  }
+  
+  
+  .nav-line{
+    display: flex;
+    
+  }
+  
+  .uncompleted {
+    width: 70%;
+  }
+  
+  .completed {
+    width: 30%;
+  }
+  
+  .nav-line span{
+    height: .5rem;
+    background-image: linear-gradient(to left, #859cd3, #4e74bf);
+  }
+  
+  .uncompleted {
+    display: block;
+    width: 60%;
+  }
+  
+  .completed {
+    width: 40%;
+    display: none;
+  }
+  
+  .task-container{
+    padding: .1rem 0;
+  }
+  
+  .layout-container{
+    padding: 0 2rem;
+  }
+  .layout-container h1{
+    font-size: 1.5rem;
+    color: #a8abb9;
+    margin: 2rem 0;
+  }
+
+  .task{
+    padding: 10px 1rem;
+  }
+  
+  .task-list {
+    padding: .5rem 0;
+  }
+
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .align-center{
+    align-items: center;
+  }
+  
+  .icon-container {
+    border: 3px solid #a8abb9;
+    width: 3rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    color: #4e74bf;
+    height: 3rem;
+  }
+  ion-icon {
+    color: #4e74bf;
+  }
+  
+  .task .title{
+    font-size: 1.3rem;
+    display: block;
+    font-weight: 700;
+  }
+  .task .location{
+    font-size: 1rem;
+    color:  #a8abb9;
+    display: block;
+    font-weight: 700;
+    line-height: 2;
+  }
+  .time{
+    font-size: 1.2rem;
+    color: #a8abb9;
+    font-weight: 700;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .hr{
+    border-top: 1px solid #a8abb9;
+  }
+
+  .sticky-addbar {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+  }
+  .sticky-addbar ion-icon {
+    font-size: 3.5rem;
+    color: #2ebaee;
+  }
+
+  .bg-blue {
+    background-color: #46529d;
+    height: 100vh;
+  }
+
+  .pen-container {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border: 2px solid #6872af;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 1rem;
+  }
+  .pen-container ion-icon {
+    font-size: 3rem;
+    color: #2ebaee;
+   
+  }
+
+  .form{
+    margin-top: 10rem;
+  }
+
+  .form p {
+    margin: 2.5rem 0;
+  }
+
+  .form input {
+    display: block;
+    width: 100%;
+    background: transparent;
+    height: 2.5rem;
+    border: none;
+    border-bottom: 1px solid #5c66a8;
+    font-size: 1.3rem;
+    font-weight: normal;
+    font-family: sans-serif;
+    color: white;
+    transition: .5s all ease-in-out;
+  }
+
+  ::placeholder{
+    color: #828abd;
+  }
+
+  input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid tomato;
+
+  }
+
+  .mb-2 {
+    margin-bottom: 2rem;
+  }
+
+  .text-white {
+    color: white !important;
+    font-weight: normal;
+  }
+
+  .icon-white ion-icon {
+    color: white !important;
+    font-weight: normal;
+    font-size: 3rem;
+  }
+
+  .submit-btn{
+    outline: none;
+    border: none;
+    background: #2ebaee;
+    color: white;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+
+
+
+
+/* } */
